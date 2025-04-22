@@ -1,0 +1,48 @@
+-Los jugadores y enemigos tienen nombre, vida y puntos de ataque
+
+-Al empezar el juego el jugador puede insertar su nombre.
+
+-El mapa se genera, el jugador siempre empieza en el centro y abajo, los enemigos aparecen al azar, siempre en una cantidad al azar (configurable desde codigo)
+
+-La variable "Jefe" de los enemigos siempre aparece en el centro y arriba, en el polo opuesto del jugador.
+
+-Los puntos de ataque de todas las entidades son un valor variable entre dos numeros, uno minimo y otro maximo
+
+-El jugador aumenta un poco su daño maximo y minimo al matar enemigos
+
+-El juego funciona por turnos.
+
+-En su turno, el jugador tiene las siguientes opciones de turno (desplegadas asi): 
+
+OPCIONES DE TURNO:
+
+1. Moverse (lo cual despliega las opciones de movimiento)
+2. Atacar (si es tiene un enemigo adyacente, si no la opcion no se muestra)
+3. Descansar (recupera cierta cantidad de vida pero termina su turno)
+4. Terminar su turno (por si desea terminar su turno y nada más)
+
+- La opcion Moverse tiene limite de pasos, ya que solo puede avanzar cierta cantidad de espacios, una vez gastada la cantidad de espacios a avanzar, las opcion de moverse a direcciones se desactivan, quedando solo la de volver a las opciones de turno, el menu de Moverse se veria asi:
+
+PASOS RESTANTES: 3
+
+1. Arriba
+2. Abajo
+3. Izquierda
+4. Derecha
+0. Volver a las opciones de turno.
+
+- La opcion Atacar despliega otras opciones que corresponden a los enemigos que tenga alrededor (sus nombres), esto para que pueda elegir que enemigo atacar si tiene mas de uno cerca, atacar a un enemigo significa restarle su vida con la cantidad de ataque que tenga el jugador (un numero entre su minimo y su maximo, contando ambos tambien, o sea que si el ataque del jugador es de 7 a 10, el enemigo podria recibir 7, 8, 9 o 10 de daño). Algo asi es como luciria el menu Atacar:
+
+1. Caballero enemigo
+2. Lancero enemigo
+0. Volver a las opciones de turno
+
+- En el turno enemigo, los enemigos se mueven, por orden, estos lo hacen con las mismas reglas del jugador: tienen cierta cantidad de espacios que pueden moverse, si se colocan junto al jugador le atacan.
+
+- Puede haber una variable del enemigo que sea el Jefe, es mucho más poderoso pero no se mueve.
+
+- Debe haber un apartado en el mapa donde se muestren las estadisticas actuales del jugador (su vida, ataque y nombre), como un elemento de UI encima del mapa
+
+- Debe haber un apartado en la pantalla donde se muestren la lista de los enemigos que quedan vivos (su nombre y estadisticas), tambien como un elemento de UI encima del mapa
+
+- Tambien, las acciones de los enemigos deben mostrarse con notificaciones para que el jugador tenga toda la informacion necesaria de lo que sucede (cuando hay combate quien ataca a quien y cuanta vida le quito, por ejemplo)
