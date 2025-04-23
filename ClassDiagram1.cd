@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProgProdAvanz_Examen1.Boss" Collapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Boss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgProdAvanz_Examen1.Character" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAAAAACACAoABCAAQAAIAAAgAAAAQAgAAAAAA=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProgProdAvanz_Examen1.Enemy" Collapsed="true">
+    <Position X="12.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAKAAAAAAIAAAAAAAAAAAAAAAAQAAAAAAAgg=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgProdAvanz_Examen1.Game" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAAAAAFAAAAAABACBIEAAgBgQBAAQAgAohACI=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgProdAvanz_Examen1.MessageQueue" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAAAQAAAAAAAAAIAAAAAAAAAABAEAAAAAAAAA=</HashCode>
+      <FileName>MessageQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgProdAvanz_Examen1.MovementHistory" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgBAAEAAAAAAAAAAgAAAAAAAAAAAAGAAAAAAA=</HashCode>
+      <FileName>MovementHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgProdAvanz_Examen1.Player" Collapsed="true">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAACAAAKAAAAAAIAAAAAAAACAQAAAAAAAAAAQAIAg=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Program" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ProgProdAvanz_Examen1.ICombatEntity" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAAAAACACAgAACAAQAAIAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ICombatEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ProgProdAvanz_Examen1.EnemyType" Collapsed="true">
+    <Position X="14.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
